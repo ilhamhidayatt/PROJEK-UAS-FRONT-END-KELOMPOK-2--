@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: 'Public Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: transparent;
+  background-image: url("assets/jinleft.jpg");
+}
+
+.navbar {
+  background-color: rgb(47, 255, 220);
+}
+
+.category-aktif {
+  background-color: #228a45;
+  color: whitesmoke;
+}
+
+.btn-primary {
+  background-color: #228a45;
+}
+
+@media only screen and (max-height: 1000px) {
+  .hasil {
+    height: 500px;
+  }
+  
+  .menu {
+    height: 500px;
+  }
+}
+
+.overflow-auto::-webkit-scrollbar{
+  display: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

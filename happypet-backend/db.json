@@ -1,0 +1,736 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "nama": "petFood"
+    },
+    {
+      "id": 2,
+      "nama": "MedicinePet"
+    },
+    {
+      "id": 3,
+      "nama": "accessories"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "Whiskas",
+      "harga": 40000,
+      "is_ready": true,
+      "gambar": "11.jpg",
+      "category": {
+        "id": 1,
+        "nama": "petFood"
+      }
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "bolt",
+      "harga": 22000,
+      "is_ready": true,
+      "gambar": "bol.jfif",
+      "category": {
+        "id": 1,
+        "nama": "petFood"
+      }
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "pedigree",
+      "harga": 50000,
+      "is_ready": true,
+      "gambar": "23.jpg",
+      "category": {
+        "id": 1,
+        "nama": "petFood"
+      }
+    },
+    {
+      "id": 4,
+      "kode": "K-04",
+      "nama": "Alpo",
+      "harga": 69000,
+      "is_ready": true,
+      "gambar": "al.jpg",
+      "category": {
+        "id": 1,
+        "nama": "petFood"
+      }
+    },
+    {
+      "id": 5,
+      "kode": "K-05",
+      "nama": "Morning Sun",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "ju.jfif",
+      "category": {
+        "id": 1,
+        "nama": "petFood"
+      }
+    },
+    {
+      "id": 6,
+      "kode": "K-06",
+      "nama": "BetaVit",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "bt.jfif",
+      "category": {
+        "id": 1,
+        "nama": "petFood"
+      }
+    },
+    {
+      "id": 7,
+      "kode": "K-07",
+      "nama": "FancyBirdFood",
+      "harga": 14000,
+      "is_ready": true,
+      "gambar": "f3.jpg",
+      "category": {
+        "id": 1,
+        "nama": "petFood"
+      }
+    },
+    {
+      "id": 8,
+      "kode": "K-08",
+      "nama": "Kalung Kucing",
+      "harga": 5000,
+      "is_ready": true,
+      "gambar": "we.jpg",
+      "category": {
+        "id": 3,
+        "nama": "accessories"
+      }
+    },
+    {
+      "id": 9,
+      "kode": "K-09",
+      "nama": "Kalung Anjing",
+      "harga": 9000,
+      "is_ready": true,
+      "gambar": "45.jfif",
+      "category": {
+        "id": 3,
+        "nama": "accessories"
+      }
+    },
+    {
+      "id": 10,
+      "kode": "K-010",
+      "nama": "Costum Polisi",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "78.jpg",
+      "category": {
+        "id": 3,
+        "nama": "accessories"
+      }
+    },
+    {
+      "id": 10,
+      "kode": "K-010",
+      "nama": "Tali Penuntun",
+      "harga": 17000,
+      "is_ready": true,
+      "gambar": "ew.jpg",
+      "category": {
+        "id": 3,
+        "nama": "accessories"
+      }
+    },
+    {
+      "id": 10,
+      "kode": "K-010",
+      "nama": "Full Perlengkapan Kucing",
+      "harga": 150000,
+      "is_ready": true,
+      "gambar": "20.jpg",
+      "category": {
+        "id": 3,
+        "nama": "accessories"
+      }
+    },
+    {
+      "id": 10,
+      "kode": "K-010",
+      "nama": "Kandang Kucing",
+      "harga": 120000,
+      "is_ready": true,
+      "gambar": "67.jpg",
+      "category": {
+        "id": 3,
+        "nama": "accessories"
+      }
+    },
+    {
+      "id": 11,
+      "kode": "K-011",
+      "nama": "Flea Remover",
+      "harga": 45000,
+      "is_ready": true,
+      "gambar": "43.jfif",
+      "category": {
+        "id": 2,
+        "nama": "MedicinePet"
+      }
+    },
+    {
+      "id": 12,
+      "kode": "K-012",
+      "nama": "Oral Srylinge",
+      "harga": 70000,
+      "is_ready": true,
+      "gambar": "23.jpg",
+      "category": {
+        "id": 2,
+        "nama": "MedicinePet"
+      }
+    },
+    {
+      "id": 14,
+      "kode": "K-014",
+      "nama": "FK",
+      "harga": 30000,
+      "is_ready": true,
+      "gambar": "fk.jpg",
+      "category": {
+        "id": 2,
+        "nama": "MedicinePet"
+      }
+    }
+  ],
+  "keranjangs": [],
+  "pesanans": [
+    {
+      "total_bayar": 60000,
+      "menus": [
+        {
+          "jumlah": 2,
+          "total_harga": 32000,
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Sate Ayam",
+            "harga": 16000,
+            "is_ready": true,
+            "gambar": "sate-ayam.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "keterangan": "Semuanya Pedas",
+          "id": 1
+        },
+        {
+          "jumlah": 2,
+          "total_harga": 28000,
+          "product": {
+            "id": 2,
+            "kode": "K-02",
+            "nama": "Nasi Goreng Telur",
+            "harga": 14000,
+            "is_ready": true,
+            "gambar": "nasi-goreng-telor.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 3
+        }
+      ],
+      "id": 1
+    },
+    {
+      "total_bayar": 23000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 10000,
+          "product": {
+            "id": 6,
+            "kode": "K-06",
+            "nama": "Bakso",
+            "harga": 10000,
+            "is_ready": true,
+            "gambar": "bakso.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "keterangan": "Bakso Kosongan",
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 13000,
+          "product": {
+            "id": 5,
+            "kode": "K-05",
+            "nama": "Brit",
+            "harga": 25000,
+            "is_ready": true,
+            "gambar": "gh.png",
+            "category": {
+              "id": 1,
+              "nama": "petFood"
+            }
+          },
+          "id": 2
+        }
+      ],
+      "id": 2
+    },
+    {
+      "total_bayar": 0,
+      "menus": [],
+      "id": 3
+    },
+    {
+      "total_bayar": 80000,
+      "menus": [
+        {
+          "jumlah": 2,
+          "total_harga": 80000,
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "todak",
+            "harga": 40000,
+            "is_ready": true,
+            "gambar": "todak.jfif",
+            "category": {
+              "id": 1,
+              "nama": "petFood"
+            }
+          },
+          "id": 1
+        }
+      ],
+      "id": 4
+    },
+    {
+      "total_bayar": 64000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 50000,
+          "product": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "pedigree",
+            "harga": 50000,
+            "is_ready": true,
+            "gambar": "23.jpg",
+            "category": {
+              "id": 1,
+              "nama": "petFood"
+            }
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 14000,
+          "product": {
+            "id": 7,
+            "kode": "K-07",
+            "nama": "FancyBirdFood",
+            "harga": 14000,
+            "is_ready": true,
+            "gambar": "f3.jpg",
+            "category": {
+              "id": 1,
+              "nama": "petFood"
+            }
+          },
+          "id": 2
+        }
+      ],
+      "id": 5
+    },
+    {
+      "total_bayar": 69000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 69000,
+          "product": {
+            "id": 4,
+            "kode": "K-04",
+            "nama": "Alpo",
+            "harga": 69000,
+            "is_ready": true,
+            "gambar": "al.jpg",
+            "category": {
+              "id": 1,
+              "nama": "petFood"
+            }
+          },
+          "id": 1
+        }
+      ],
+      "id": 6
+    },
+    {
+      "total_bayar": 80000,
+      "menus": [
+        {
+          "jumlah": 2,
+          "total_harga": 80000,
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Whiskas",
+            "harga": 40000,
+            "is_ready": true,
+            "gambar": "11.jpg",
+            "category": {
+              "id": 1,
+              "nama": "petFood"
+            }
+          },
+          "id": 1
+        }
+      ],
+      "id": 7
+    },
+    {
+      "total_bayar": 50000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 50000,
+          "product": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "pedigree",
+            "harga": 50000,
+            "is_ready": true,
+            "gambar": "23.jpg",
+            "category": {
+              "id": 1,
+              "nama": "petFood"
+            }
+          },
+          "id": 1
+        }
+      ],
+      "id": 8
+    },
+    {
+      "total_bayar": 59000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 5000,
+          "product": {
+            "id": 8,
+            "kode": "K-08",
+            "nama": "Kalung Kucing",
+            "harga": 5000,
+            "is_ready": true,
+            "gambar": "we.jpg",
+            "category": {
+              "id": 3,
+              "nama": "accessories"
+            }
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 45000,
+          "product": {
+            "id": 11,
+            "kode": "K-011",
+            "nama": "Flea Remover",
+            "harga": 45000,
+            "is_ready": true,
+            "gambar": "43.jfif",
+            "category": {
+              "id": 2,
+              "nama": "MedicinePet"
+            }
+          },
+          "id": 2
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 9000,
+          "product": {
+            "id": 9,
+            "kode": "K-09",
+            "nama": "Kalung Anjing",
+            "harga": 9000,
+            "is_ready": true,
+            "gambar": "45.jfif",
+            "category": {
+              "id": 3,
+              "nama": "accessories"
+            }
+          },
+          "id": 3
+        }
+      ],
+      "id": 9
+    },
+    {
+      "total_bayar": 50000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 50000,
+          "product": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "pedigree",
+            "harga": 50000,
+            "is_ready": true,
+            "gambar": "23.jpg",
+            "category": {
+              "id": 1,
+              "nama": "petFood"
+            }
+          },
+          "id": 1
+        }
+      ],
+      "id": 10
+    },
+    {
+      "total_bayar": 40000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 40000,
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Whiskas",
+            "harga": 40000,
+            "is_ready": true,
+            "gambar": "11.jpg",
+            "category": {
+              "id": 1,
+              "nama": "petFood"
+            }
+          },
+          "id": 1
+        }
+      ],
+      "id": 11
+    },
+    {
+      "total_bayar": 15000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 15000,
+          "product": {
+            "id": 10,
+            "kode": "K-010",
+            "nama": "Costum Polisi",
+            "harga": 15000,
+            "is_ready": true,
+            "gambar": "78.jpg",
+            "category": {
+              "id": 3,
+              "nama": "accessories"
+            }
+          },
+          "id": 1
+        }
+      ],
+      "id": 12
+    },
+    {
+      "total_bayar": 45000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 45000,
+          "product": {
+            "id": 11,
+            "kode": "K-011",
+            "nama": "Flea Remover",
+            "harga": 45000,
+            "is_ready": true,
+            "gambar": "43.jfif",
+            "category": {
+              "id": 2,
+              "nama": "MedicinePet"
+            }
+          },
+          "id": 1
+        }
+      ],
+      "id": 13
+    },
+    {
+      "total_bayar": 50000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 50000,
+          "product": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "pedigree",
+            "harga": 50000,
+            "is_ready": true,
+            "gambar": "23.jpg",
+            "category": {
+              "id": 1,
+              "nama": "petFood"
+            }
+          },
+          "id": 1
+        }
+      ],
+      "id": 14
+    },
+    {
+      "total_bayar": 220000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 40000,
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Whiskas",
+            "harga": 40000,
+            "is_ready": true,
+            "gambar": "11.jpg",
+            "category": {
+              "id": 1,
+              "nama": "petFood"
+            }
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 50000,
+          "product": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "pedigree",
+            "harga": 50000,
+            "is_ready": true,
+            "gambar": "23.jpg",
+            "category": {
+              "id": 1,
+              "nama": "petFood"
+            }
+          },
+          "id": 2
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 10000,
+          "product": {
+            "id": 6,
+            "kode": "K-06",
+            "nama": "BetaVit",
+            "harga": 10000,
+            "is_ready": true,
+            "gambar": "bt.jfif",
+            "category": {
+              "id": 1,
+              "nama": "petFood"
+            }
+          },
+          "id": 3
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 70000,
+          "product": {
+            "id": 12,
+            "kode": "K-012",
+            "nama": "Oral Srylinge",
+            "harga": 70000,
+            "is_ready": true,
+            "gambar": "23.jpg",
+            "category": {
+              "id": 2,
+              "nama": "MedicinePet"
+            }
+          },
+          "id": 4
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 45000,
+          "product": {
+            "id": 11,
+            "kode": "K-011",
+            "nama": "Flea Remover",
+            "harga": 45000,
+            "is_ready": true,
+            "gambar": "43.jfif",
+            "category": {
+              "id": 2,
+              "nama": "MedicinePet"
+            }
+          },
+          "id": 5
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 5000,
+          "product": {
+            "id": 8,
+            "kode": "K-08",
+            "nama": "Kalung Kucing",
+            "harga": 5000,
+            "is_ready": true,
+            "gambar": "we.jpg",
+            "category": {
+              "id": 3,
+              "nama": "accessories"
+            }
+          },
+          "id": 6
+        }
+      ],
+      "id": 15
+    },
+    {
+      "total_bayar": 80000,
+      "menus": [
+        {
+          "jumlah": 2,
+          "total_harga": 80000,
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Whiskas",
+            "harga": 40000,
+            "is_ready": true,
+            "gambar": "11.jpg",
+            "category": {
+              "id": 1,
+              "nama": "petFood"
+            }
+          },
+          "keterangan": "sxsx",
+          "id": 1
+        }
+      ],
+      "id": 16
+    }
+  ]
+}
